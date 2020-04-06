@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Karolina Guminiak</title>
+    <link rel="stylesheet" href="csscalculator.css">
+</head>
+<body>
+    <div class="button-row">
+        <section id="display" class="display-field">0
+        </section>
+    </div>
+
+    <div class="button-row">
+        <button class="button-half" onclick="buttonClick('C')">
+          <h2>C</h2>
+        </button>
+    
+        <button class="button-quarter" onclick="buttonClick('⟵')">
+            <h2>⟵</h2>
+        </button>
+    
+        <button class="functional-button" onclick="buttonClick('÷')" >
+        <h2>÷</h2>
+            
+        </button>
+      </div>
+
+      <div class="button-row">
+        <button class="button-quarter"onclick="buttonClick('7')" >
+            <h2>7</h2>
+        </button>
+        <button class="button-quarter"onclick="buttonClick('8')" >
+            <h2>8</h2> 
+        </button>
+    
+        <button class="button-quarter"onclick="buttonClick('9')" >
+            <h2>9</h2>
+        </button>
+    
+        <!-- <button class="button-quarter" > -->
+            <button class="functional-button"onclick="buttonClick('×')">×</button>
+        </button>
+      </div>
+
+      <div class="button-row">
+        <button class="button-quarter"onclick="buttonClick('4')" >
+            <h2>4</h2>
+        </button>
+        <button class="button-quarter"onclick="buttonClick('5')" >
+            <h2>5</h2> 
+        </button>
+
+        <button class="button-quarter"onclick="buttonClick('6')" >
+            <h2>6</h2>
+        </button>
+    
+        <!-- <button class="button-quarter" > -->
+            <button class="functional-button"onclick="buttonClick('-')">-</button>
+        </button>
+      </div>
+
+      <div class="button-row">
+        <button class="button-quarter"onclick="buttonClick('1')" >
+            <h2>1</h2>
+        </button>
+        <button class="button-quarter"onclick="buttonClick('2')" >
+            <h2>2</h2> 
+        </button>
+    
+        <button class="button-quarter"onclick="buttonClick('3')" >
+            <h2>3</h2>
+        </button>
+    
+        <!-- <button class="button-quarter" > -->
+            <button class="functional-button"onclick="buttonClick('+')">+</button>
+        </button>
+      </div>
+
+      <div class="button-row">
+        <button class="button-treequarter"onclick="buttonClick('0')" >
+            <h2>0</h2>
+        </button>
+        <button class="functional-button"onclick="buttonClick('=')" >
+            <h2>=</h2> 
+        </button>
+      </div>
+     
+      <script src="./jscalculator.js"></script>
+</body>
+</html>

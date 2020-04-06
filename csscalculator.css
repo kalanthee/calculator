@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  } 
+  .button-row {
+    display: flex;
+    align-items: stretch; 
+ 
+
+  }
+  .button-half {
+      width: 50%;
+      width: 200px;
+      height: 100px;
+      border: solid black 1px;
+      background-color: #d8d9db;
+      /* font-size: 40px; */
+      align-items: center;
+    
+  }
+  
+  .button-quarter {
+    width: 25%;
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    background-color: #d8d9db;
+    /* font-size: 40px; */
+    align-items: center;
+
+}
+
+.button-treequarter {
+   
+    width: 300px;
+    height: 100px;
+    border: solid black 1px;
+    border-bottom: 0px;
+    background-color: #d8d9db;
+    /* font-size: 40px; */
+    align-items:  center;
+    
+}
+
+.functional-button {
+    background-color: #df974c;
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+ 
+}
+button:hover {
+    background-color: rgb(231, 231, 231);
+   
+}
+button:active {
+    background-color:#d8d9db;
+    
+}
+.functional-button:hover {
+    background-color: rgb(248, 193, 131);
+ 
+}
+.functional-button:active {
+    background-color:#df974c;
+   
+}
+
+.display-field {
+    background-color: black;
+    color: white;
+    width: 50%;
+    width: 400px;
+    height: 80px;
+    /* border: solid black 1px; */
+    font-family: 'Courier New';
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 5px;
+   
+}
+
+h2 {
+   text-align: center;
+   font-size: 40px;
+   font-family: Arial;
+   margin: 0px;
+   font-weight: 500;
+  
+}
+body {
+    margin: 0px;
+}
